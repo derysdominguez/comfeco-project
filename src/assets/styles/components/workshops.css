@@ -1,0 +1,50 @@
+.workshops{
+  padding: 2rem;
+  width: 90%;
+  margin: auto;
+  background-color: #380f63d1;
+  box-shadow: 0px 4px 24px -1px #00000041;
+  border-radius: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+.workshops__header{
+  display: flex;
+  justify-content: space-between;
+}
+.workshops__header h5{
+  color: #fff;
+}
+.workshops__list{
+  margin-top: 1rem;
+}
+.workshops__list .list__header{
+  background: #fff;
+  padding: 0.5rem;
+  font-weight: 500;
+}
+.list__body--group{
+  display: flex;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  background: #fff;
+  align-items: center;
+}
+.list__body--group img {
+  margin: 0.5rem;
+  border-radius: 50%;
+}
+.workshops__header a{
+  color:#fff;
+  font-weight: 700;
+}
+.workshops__header a:hover{
+  font-weight: 800;
+      color:#fff;
+}
+
+@media screen and (min-width: 769px) {
+  .workshops__header h5{
+    color: #fff;
+    font-size: 1.5rem;
+  }
+}

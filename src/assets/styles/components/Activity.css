@@ -1,0 +1,34 @@
+.activity {
+  margin: 12px;
+}
+
+.titulo-actividad.warning {
+  color: #860505;
+}
+
+.titulo-actividad.success {
+  color: #8a178c;
+}
+
+.activity-type {
+  background-color: white;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border: 1px solid #380f63;
+}
+
+.activity_icon {
+  max-height: 30px;
+}
+
+.box-all-activity {
+  background: linear-gradient(110deg, #ffffff50 0%, #ffffff1a 100%);
+  /* background-color: #fff8e6; */
+  backdrop-filter: blur(5px);
+  padding: .5rem 0;
+}

@@ -1,0 +1,128 @@
+.container__home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  /* margin-top: 1rem; */
+  max-width: 1800px;
+  max-height: 100%;
+  margin: auto;
+  padding: 4rem 0rem;
+}
+.home__communities {
+  width: 25%;
+  padding: 2rem 1rem;
+  /* margin-top: 5rem; */
+}
+.home__main {
+  width: 50%;
+  padding: 2rem 1rem;
+  background-color: #ffffff46;
+  border-left: 1px solid #380f6313;
+  border-right: 1px solid #380f6313;;
+}
+.home__workshops {
+  width: 25%;
+  padding: 2rem 1rem;
+  /* margin-top: 5rem; */
+}
+
+.creadores__content {
+  margin: 3rem auto;
+}
+
+.sponsors__content {
+  margin: 5rem auto;
+}
+.InfiniteCarouselDots{
+  top: 105%!important;
+}
+.creadores__content h3{
+font-size: 2rem;
+font-weight: 600;
+padding-bottom: 2rem;
+}
+.sponsors__content h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  padding-bottom: 2rem;
+}
+.counter__content h3{
+  font-size: 2.6rem;
+  font-weight: 800;
+  padding-bottom: 2rem;
+  color:#380f63
+}
+.creadores__content  .item-name{
+  width: 100%;
+  background-color: #380f63d1;
+  color: #fff;
+  font-weight: 600;
+  padding: .3rem;
+  height: 4rem;
+  text-align: center;
+  position: absolute;
+  bottom: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+.sponsors__content  .item-name{
+  display: none;
+}
+
+.color-morado{
+ color: #380f63
+}
+
+.home__main h5{
+  font-size: 2.2rem;
+}
+
+.home__main p{
+  font-size: 1.4rem;
+}
+
+/* Carrusel item */
+.creadores__content .carrousel__item{
+  border: 3px solid #380f63;
+  border-radius: 1.5rem 1.5rem 0rem 0rem;
+}
+.creadores__content .carrousel__item img{
+  border-radius: 1.5rem 1.5rem 0rem 0rem;
+}
+
+.InfiniteCarouselArrowIcon {
+  display: inline-block;
+  padding: 4px;
+  border: solid #380f63c2;
+  border-width: 0 5px 5px 0;
+}
+.InfiniteCarouselArrowIcon:hover {
+  display: inline-block;
+  padding: 4px;
+  border: solid #380f63;
+  border-width: 0 5px 5px 0;
+}
+.list__body p{color: #fff;}
+
+@media (max-width: 768px) {
+  .container__home {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem;
+  }
+  .home__communities {
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+  .home__main {
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+  .home__workshops {
+    width: 100%;
+    padding: 2rem 1rem;
+  }
+}

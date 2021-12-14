@@ -1,0 +1,128 @@
+.bg-img {
+  background-image: url("https://www.comfeco.com/images/hero-background@2x.webp") !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+  max-width: 1800px;
+  margin: auto;
+}
+.Recovery {
+  width: 100%;
+  height: auto;
+  position: relative;
+  min-height: 1080px;
+  display: flex;
+  align-items: center;
+  min-height: 85vh;
+  justify-content: center;
+}
+
+.Recovery__container {
+  background-color: #fff;
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #380f63;
+
+  /* justify-content: center; */
+}
+
+.img-calm {
+  width: 13rem;
+  margin: 2rem auto;
+  margin-top: 5rem;
+}
+
+@media screen and (min-width: 401px) {
+  .Recovery__container {
+    width: 500px;
+  }
+}
+
+.Recovery__title {
+  text-align: center;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 40px;
+  padding: 20px;
+}
+
+.Recovery__title span {
+  display: inline-block;
+}
+
+.Recovery__form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.form__group_rc {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 0 20px;
+}
+.form__check_rc {
+  margin: 15px;
+}
+
+.form__link_rc {
+  text-align: r;
+}
+
+.form__button_rc {
+  border-radius: 10px;
+  width: 100%;
+  margin: 0 auto;
+  height: 40px;
+  font-size: 20px;
+  background-color: rgb(32, 80, 180);
+}
+
+.form__relogin_rc {
+  text-align: center;
+  font-size: 13px;
+}
+
+.form__input_rc {
+  height: 30px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.form__check_rc {
+  margin: 0;
+  margin-top: 5px;
+}
+.social__group_rc {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 0 20px;
+}
+
+.form__label_rc {
+  font-size: 1.2rem;
+  margin-bottom: 6px;
+}
+
+.Recovery__error {
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 1rem;
+}

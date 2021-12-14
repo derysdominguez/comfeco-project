@@ -1,0 +1,188 @@
+.container__profile{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.5rem 1rem;
+}
+.container__profile h2{
+  text-align: center;
+  font-size: 2.5rem ;
+  font-weight: 700;
+  color:#380f63;
+  margin-top: 2rem;
+
+}
+
+.link-atras{
+  font-size: 1.5rem;
+  cursor: pointer;
+  font-weight: 600;
+  text-decoration: none;
+  color: #380f63;
+}
+
+.link-atras:hover{
+  color: #555;
+  font-weight: 700;
+}
+
+.updateProfile__form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 250px;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+
+}
+.container__updatePassword{
+  border-top: 0.2rem solid #380f63;
+}
+/* .container__profile{
+  margin: auto;
+} */
+
+.updatePassword__form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 250px;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+.form__label {
+  font-size: 1.4rem;
+  color: #555;
+  margin-top: 1.5rem;
+  font-weight: 700;
+  /* text-align: left; */
+}
+.form__input, .form__select{
+  height: 30px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 5px;
+  border: 1.5px solid #6f42c1;
+  padding: 0.5rem;
+   font-size: 1.2rem;
+   color: black;
+   font-weight: 400;
+}
+.form__textarea{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 5px;
+  border: 1.5px solid #6f42c1;
+  font-size: 1.2rem;
+}
+.container__updateProfile-flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form__button {
+  box-sizing: border-box;
+  position: relative;
+  margin: 0.2em;
+  border: none;
+  line-height: 34px;
+  white-space: nowrap;
+  border-radius: 0.2em;
+  color: #fff;
+  background-color: rgb(139 25 141);
+  color: #fff;
+  text-align: center;
+  font-size: 2rem;
+  padding: .5rem 0rem;
+  font-weight: 400;
+  margin-top: 2rem;
+}
+
+.container__updateProfileImg-flex{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fa-camera{
+  font-size: 3.5rem;
+  color:  #fff;
+  position: absolute;
+  top: 40%;
+}
+input#inputFile {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  z-index: 20;
+  opacity: 0;
+  width: 8rem;
+  height: 8rem;
+  overflow: hidden;
+}
+
+input#inputFile:hover {
+  cursor: pointer;
+}
+
+/* .cargar-img{
+  position: absolute;
+  height: 6rem;
+  width: 14rem;
+  top:45%;
+  background-color: bisque;
+  border-radius: 0% 0% 70% 70% ;
+} */
+
+.redes_label{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding-right: 1rem;
+}
+.redes_label i {
+  font-size: 1.8rem;
+  padding-right: 0.5rem;
+}
+@media screen and (min-width: 769px) {
+
+  .container__profile{
+    width: 65%;
+    padding: 2.5rem 1.5rem;
+  }
+
+  .updateProfile__form, .updatePassword__form {
+    width: 100%;
+    max-width: 700px;
+  }
+  .container__updateProfile-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .container__updateProfile-flex div{
+    width: 100%;
+  }
+  .container__updateProfile-flex> div:first-child {
+      padding-right: 1rem;
+  }
+
+
+  .margin-top{
+    margin-top: 2.5rem;
+  }
+  input#inputFile {
+    top: 20%;
+    left: 45%;
+  }
+  .redes_label{
+   margin-top: 0rem;
+  }
+  .container__updateProfile-social input{
+margin-right: 1rem;
+  }
+}

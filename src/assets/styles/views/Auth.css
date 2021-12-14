@@ -1,0 +1,47 @@
+@media screen and (min-width: 401px) {
+  html {
+    background-image: url('../../img/bg__login.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+.Auth {
+  width: 100%;
+  overflow: hidden;
+}
+
+.Auth img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: 100vh;
+  z-index: -1;
+}
+
+.Auth__container {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  z-index: 2d;
+}
+.Auth_box_button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem 0rem;
+}
+
+
+@media screen and (min-width: 401px) {
+  .Auth__container {
+    width: 400px;
+    background-color: rgba(32, 120, 180, 0.7);
+  }
+}

@@ -1,0 +1,155 @@
+.box-group {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.box-1 {
+  width: 20%;
+  background-color: #fff;
+  border: 2px solid #380f63;
+}
+.box-2 {
+  width: 80%;
+}
+
+.box-filter {
+  display: flex;
+}
+
+.box-filter .form-select {
+  width: 50% !important;
+  margin-right: 1rem;
+}
+
+.box-filter form {
+  width: 50%;
+}
+
+.box-lenguaje {
+  background: cornflowerblue;
+  position: relative;
+  left: -1rem;
+  padding: 0.4rem 1rem;
+  margin-bottom: 0.8rem;
+  border-top-right-radius: 8%;
+  border-bottom-right-radius: 8%;
+  width: 100%;
+}
+
+.box-my-group,
+.box-all-group,
+.box-filter {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.box-my-group {
+  padding-top: 2rem;
+}
+
+.My-group-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.my-group-name {
+  background-color: cornflowerblue;
+  color: #fff;
+  padding: 0.5rem 0.5rem;
+}
+
+.box-all-integrants {
+  margin: 2rem auto;
+}
+
+.box-one-integrants {
+  border-bottom: 1px solid cornflowerblue;
+  justify-content: space-around;
+  padding-bottom: 1.2rem;
+}
+
+.box-integrant-photo {
+  width: 3rem;
+  height: 3rem;
+}
+
+.box-integrant-photo img {
+  width: 50px;
+  border-radius: 50%;
+  height: 50px;
+  object-fit: cover;
+}
+
+.card-img {
+  height: 10rem;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .box-group {
+    flex-direction: column;
+  }
+  .box-1 {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+  .box-2 {
+    width: 100%;
+  }
+  .box-all-group,
+  .box-filter {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  .box-my-group {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .box-filter {
+    flex-direction: column;
+  }
+
+  .box-filter .form-select {
+    width: 100% !important;
+    /* margin-bottom: 1rem; */
+  }
+  .box-filter form {
+    width: 100% !important;
+    padding-top: 1rem;
+  }
+  .box-filter .form-select{
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 767px) {
+  .box-filter {
+    flex-direction: row;
+  }
+}
+
+
+
+@media (min-width: 500px) and (max-width: 767px) {
+  .row-cols-2 > * {
+    width: 80% !important;
+    margin: 3rem auto!important;
+  }
+
+  .card-img{
+      height: 15rem;
+  }
+
+}
+
+
+.Nogroup {
+  text-align: center;
+}
+
+.Nogroup i {
+  color: #646464;
+  margin: 2rem auto;
+}

@@ -1,0 +1,50 @@
+img.imgGroup {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.headerGroup {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.groupDesc {
+    padding: 15px;
+}
+
+.groupMembers {
+    padding: 15px;
+}
+
+.groupMembers .row {
+    background-color: white;
+    box-shadow: 1px 4px 4px #420d423d;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.groupMembers img {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.groupCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondInfoMember {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.secondInfoMember i {
+    margin-right: 10px;
+}

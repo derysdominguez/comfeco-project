@@ -1,0 +1,92 @@
+.Register__title {
+  text-align: center;
+  font-size: 4rem;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+
+.Register__title span {
+  display: inline-block;
+}
+
+.Register__form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.form__group_re {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 0 20px;
+}
+
+.form__check_re {
+  margin: 15px;
+}
+
+.form__link_re {
+  text-align: r;
+}
+
+.form__button_re {
+  border-radius: 10px;
+  font-size: 25px;
+  width: 100%;
+  height: 40px;
+  margin: 0 auto;
+  background-color: rgb(32, 80, 180);
+}
+
+.form__relogin_re {
+  text-align: center;
+  font-size: 10px;
+}
+
+.form__input_re {
+  height: 25px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.error {
+  border: 2px solid red;
+}
+
+.form__check_re {
+  margin: 0;
+  margin-top: 5px;
+}
+
+.social__group_re {
+  display: flex;
+  width: 100%;
+  margin-bottom: 7px;
+  padding: 0 20px;
+}
+
+.form__label_re {
+  font-size: 15px;
+}
+
+.form__button_other_re {
+  border-radius: 10px;
+  font-size: 13px;
+  width: 100%;
+  height: 40px;
+  margin: 0 auto;
+  background-color: rgb(32, 80, 180);
+}
+
+.form__register_re {
+  font-size: 15px;
+}
